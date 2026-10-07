@@ -51,6 +51,26 @@
 
 35 项清单见 [`final-audit-checklist.md`](skill/cpmcm-modeling-coach/assets/final-audit-checklist.md)。
 
+## Skill 文件与迭代过程展示
+
+下面的截图展示 Skill 的参考规则、公开迭代记录和自迭代工具。赛题目录及优秀论文文件路径截图不放入开源介绍；仓库内也不提供对应第三方原始文件。
+
+| Skill 参考规则 | 迭代记录概要 |
+| :---: | :---: |
+| <img src="docs/images/skill-reference-files.png" alt="Skill 参考规则文件" width="400"> | <img src="docs/images/iteration-overview-files.png" alt="迭代记录概要文件" width="400"> |
+
+| 完整版本演进记录 | 继续迭代所需模板 |
+| :---: | :---: |
+| <img src="docs/images/iteration-history-files.png" alt="版本演进记录文件" width="400"> | <img src="docs/images/self-iteration-files.png" alt="自迭代工作流文件" width="400"> |
+
+### 三次真实迭代的阶段性效果
+
+以下截图保留三轮真实赛题测试时的阶段性成品首页，用于说明 Skill 如何经过“实际调用—过程审计—独立评价—规则修订”逐轮完善。它们不是官方优秀成果、获奖证明或标准答案，完整赛题、附件及成品文件不在本开源仓库中分发。
+
+| 第一轮迭代 | 第二轮迭代 | 第三轮迭代 |
+| :---: | :---: | :---: |
+| <img src="docs/images/iteration-case-1-preview.png" alt="第一轮迭代阶段性效果" width="300"> | <img src="docs/images/iteration-case-2-preview.png" alt="第二轮迭代阶段性效果" width="300"> | <img src="docs/images/iteration-case-3-preview.png" alt="第三轮迭代阶段性效果" width="300"> |
+
 ## 60 图高级图表库
 
 每个图表条目不是一张孤立图片，而是一份可复现模板，包含适用问题、需要的数据字段、图形编码、误用风险、完整代码、效果图和缩略图。正式使用时必须以本题真实数据替换全部合成示例，并检查单位、图例、统计口径和正文结论是否一致。
