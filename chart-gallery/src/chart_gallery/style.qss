@@ -1,0 +1,137 @@
+/* 图表库 v2 — 浅色 · 4px 栅格 · 主色 #0072B2 与图表同源 */
+* {
+    font-family: "Microsoft YaHei";
+    font-size: 13px;
+    color: #1F2937;
+}
+
+QMainWindow, QDialog { background: #F4F6F9; }
+
+/* ============ 侧栏 ============ */
+QFrame#sidebar { background: #FFFFFF; border-right: 1px solid #E7EBF0; }
+QLabel#appTitle { font-size: 18px; font-weight: bold; background: transparent; }
+QLabel#appSub { color: #8A94A3; font-size: 11px; background: transparent; }
+
+/* 维度分段切换 */
+QPushButton#seg {
+    background: transparent;
+    color: #6B7280;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 12px;
+    font-size: 13.5px;
+    text-align: left;
+}
+QPushButton#seg:hover { background: #F0F4F8; color: #1F2937; }
+QPushButton#seg:checked { background: #E8F1F8; color: #0072B2; font-weight: bold; }
+
+/* 类别列表 */
+QListWidget#cats { background: transparent; border: none; outline: 0; }
+QListWidget#cats::item {
+    padding: 9px 12px;
+    border-radius: 8px;
+    margin: 1px 0;
+    color: #374151;
+}
+QListWidget#cats::item:hover { background: #F0F4F8; }
+QListWidget#cats::item:selected { background: #0072B2; color: white; }
+
+/* 选图车底条 */
+QFrame#cartbar { background: #E8F1F8; border-radius: 10px; }
+QFrame#cartbar:hover { background: #DCEAF6; }
+QLabel#cartText { color: #005A8E; font-weight: bold; background: transparent; }
+
+/* ============ 卡片 ============ */
+QFrame#card {
+    background: white;
+    border: 1px solid #E7EBF0;
+    border-radius: 12px;
+}
+QFrame#card:hover { border: 1px solid #7FB3D5; }
+QLabel#cardName { font-size: 15px; font-weight: bold; border: none; background: transparent; }
+QLabel#cardDesc { font-size: 12px; color: #8A94A3; border: none; background: transparent; }
+QLabel#cardImg { background: #FAFBFD; border: 1px solid #F0F3F7; border-radius: 8px; }
+QLabel#cardBadge { font-size: 11px; color: #009E73; background: transparent; }
+QLabel#cardBadgeBad { font-size: 11px; color: #D55E00; background: transparent; }
+
+/* ============ 顶栏 ============ */
+QFrame#topbar { background: #F4F6F9; border-bottom: 1px solid #E7EBF0; }
+QFrame#hline { background: #EEF1F5; border: none; }
+QLabel#title { font-size: 16px; font-weight: bold; background: transparent; }
+QLabel#count { color: #8A94A3; font-size: 12px; background: transparent; }
+
+/* ============ 按钮 ============ */
+QPushButton {
+    background: #0072B2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 18px;
+}
+QPushButton:hover { background: #005A8E; }
+QPushButton:disabled { background: #9DB8D2; }
+QPushButton#secondary {
+    background: white;
+    color: #0072B2;
+    border: 1px solid #C9D8E6;
+}
+QPushButton#secondary:hover { background: #F0F6FB; border-color: #0072B2; }
+
+/* ============ 输入 ============ */
+QLineEdit {
+    background: white;
+    border: 1px solid #D8DFE7;
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+QLineEdit:focus { border: 1px solid #0072B2; }
+
+/* ============ 滚动 ============ */
+QScrollArea { border: none; background: transparent; }
+QScrollBar:vertical { background: transparent; width: 10px; margin: 2px; }
+QScrollBar::handle:vertical { background: #CBD5E0; border-radius: 5px; min-height: 40px; }
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical { height: 0; }
+QScrollBar:horizontal { background: transparent; height: 10px; margin: 2px; }
+QScrollBar::handle:horizontal { background: #CBD5E0; border-radius: 5px; min-width: 40px; }
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal { width: 0; }
+
+/* ============ 详情分区卡 ============ */
+QFrame#section { background: white; border: 1px solid #E7EBF0; border-radius: 12px; }
+QLabel#secTitle {
+    font-size: 12px;
+    color: #8A94A3;
+    font-weight: bold;
+    background: transparent;
+}
+QLabel#contract {
+    background: #EEF4FA;
+    border-radius: 8px;
+    padding: 10px;
+    color: #33475B;
+}
+QLabel#source { color: #8A94A3; font-size: 11.5px; background: transparent; }
+QLabel#badge { color: #009E73; font-size: 12px; background: transparent; }
+QLabel#badgeBad { color: #D55E00; font-size: 12px; background: transparent; }
+QLabel#toast {
+    background: #323232;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 18px;
+}
+
+/* ============ 代码区 ============ */
+QPlainTextEdit#code {
+    background: #FBFCFE;
+    border: 1px solid #E7EBF0;
+    border-radius: 10px;
+    font-family: "Consolas";
+    font-size: 12.5px;
+    selection-background-color: #C8DFF0;
+}
+QWidget#lineArea { background: #F2F5F9; color: #9AA6B2; }
+QTextBrowser#answer {
+    background: #FBFCFE;
+    border: 1px solid #E7EBF0;
+    border-radius: 10px;
+    font-size: 13px;
+}

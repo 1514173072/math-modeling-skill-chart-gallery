@@ -1,0 +1,6 @@
+interface:
+  display_name: "数学建模竞赛教练"
+  short_description: "面向各类数模竞赛的建模、验证、复现与论文写作辅助"
+  default_prompt: "Use $cpmcm-modeling-coach as a mathematical-modeling competition coach for me as a contestant. First inspect the supplied materials, state the competition context, then ask all unanswered preflight questions and stop until I explicitly reply or accept the defaults. For a full paper, apply the body-page and reference quality gates, keep full source code outside the PDF, freeze the draft, have an independent reviewer use 3-5 similar excellent papers supplied or lawfully accessible to the user as benchmarks, and complete dual-score review, evidence-based revision, targeted recheck, and final PDF visual inspection before delivery."
+policy:
+  allow_implicit_invocation: true
