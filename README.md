@@ -33,7 +33,7 @@ C:\Users\你的用户名\.codex\skills\cpmcm-modeling-coach
 
 ## 使用图表库
 
-优先从 [Releases](../../releases) 下载Windows完整包，解压后运行 `MathModelingChartGallery.exe`。EXE只负责浏览、筛选和复制代码，模板数据均为合成示例。
+优先从 [Releases](https://github.com/1514173072/math-modeling-skill-chart-gallery/releases) 下载 Windows 完整包，解压后运行 `MathModelingChartGallery.exe`。EXE 只负责浏览、筛选和复制代码，模板数据均为合成示例。
 
 从源码运行：
 
